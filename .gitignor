@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# 실행 중 생성되는 데이터
+data/*.json
+data/*.tmp
+data/.*.tmp
+data/*.e2e-backup
+
+# 비밀 정보 (DB 주소, 비밀번호)
+.streamlit/secrets.toml
+
+# 테스트 산출물
+tests/screenshots/
